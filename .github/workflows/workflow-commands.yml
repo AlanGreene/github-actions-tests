@@ -39,5 +39,6 @@ jobs:
           echo "[WARN] A warning without using the workflow command"
           echo "[WARNING] A warning without using the workflow command"
           echo "[INFO] A regular log message"
+          echo "[NOTICE] A notice without using the workflow command"
           echo "[DEBUG] A debug message without using the workflow command"
           echo "End of logs"
