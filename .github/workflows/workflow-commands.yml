@@ -35,4 +35,8 @@ jobs:
             sleep 1
           done
           echo "::endgroup::"
+          echo "[ERROR] An error without using the workflow command"
+          echo "[WARN] A warning without using the workflow command"
+          echo "[INFO] A regular log message"
+          echo "[DEBUG] A debug message without using the workflow command"
           echo "End of logs"
