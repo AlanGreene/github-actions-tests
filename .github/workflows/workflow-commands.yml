@@ -61,4 +61,7 @@ jobs:
           echo "A notice without using the workflow command"
           echo "A debug message without using the workflow command"
           echo "::endgroup::"
+          echo "::warning::1
+          2
+          3"
           echo "End of logs"
