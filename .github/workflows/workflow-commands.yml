@@ -67,4 +67,9 @@ jobs:
           echo "::debug::debug 1
           debug 2
           debug 3"
+          cat << EOF
+          ::debug::heredoc debug 1
+          heredoc debug 2
+          heredoc debug 3
+          EOF
           echo "End of logs"
