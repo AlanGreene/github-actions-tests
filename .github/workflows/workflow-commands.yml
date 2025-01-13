@@ -72,4 +72,16 @@ jobs:
           heredoc debug 2
           heredoc debug 3
           EOF
+          echo "::group::::warning::group then log level"
+          echo "Some content"
+          echo "::endgroup::"
+          echo "::group::warning::group then log level without extra delimiters"
+          echo "Some content"
+          echo "::endgroup::"
+          echo "::warning::::group::log level then group"
+          echo "Some content"
+          echo "::endgroup::"
+          echo "::warning::group::log level then group without extra delimiters"
+          echo "Some content"
+          echo "::endgroup::"
           echo "End of logs"
